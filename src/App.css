@@ -1,3 +1,14 @@
+body {
+  background-color: #fef9f8;
+  font-family: "Poppins", sans-serif;
+  color: #4d5358;
+}
+
+.App {
+  max-width: 960px;
+  margin: 0 auto;
+}
+
 .App .header {
   margin: 0 auto;
   text-align: center;
@@ -9,13 +20,13 @@
 .App .header span {
   position: relative;
   top: 2px;
-  opacity: 0.6;
+  color: #ef9173;
 }
 
 .App .logo {
   display: block;
   max-width: 75px;
-  margin: 20px 0;
+  margin: 40px 0;
   display: inline;
 }
 

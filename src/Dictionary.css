@@ -1,0 +1,15 @@
+.Dictionary .form-subheading {
+  font-size: 15px;
+  font-weight: 400;
+}
+
+.Dictionary section {
+  background: #f3e4e0;
+  border-radius: 8px;
+}
+
+.Dictionary input {
+  border-radius: 8px;
+  font-size: 14px;
+  background-color: #fef9f8;
+}

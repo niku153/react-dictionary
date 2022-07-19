@@ -1,0 +1,16 @@
+.Phonetic .icon {
+  color: #ef9173;
+  background: #fef9f8;
+  border: 1px solid #ef9173;
+  padding: 5px;
+  border-radius: 25px;
+  margin-right: 10px;
+  transition: all 300ms ease-in-out;
+}
+
+.Phonetic .icon:hover {
+  cursor: pointer;
+  color: #fef9f8;
+  background: #ef9173;
+  border: 1px solid #fef9f8;
+}
