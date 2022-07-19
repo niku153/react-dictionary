@@ -1,7 +1,9 @@
 import React from "react";
-import logo from "./logo.png";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faVolumeHigh } from "@fortawesome/free-solid-svg-icons";
 
 export default function Phonetic(props) {
+  const icon = <FontAwesomeIcon icon={faVolumeHigh} />;
   let audio = new Audio(props.phonetic.audio);
   function handleClick(event) {
     audio.play();
@@ -9,8 +11,7 @@ export default function Phonetic(props) {
   if (props.phonetic.audio && props.phonetic.text) {
     return (
       <div>
-        <img src={logo} alt="audio" onClick={handleClick} />
-        <br />
+        <span onClick={handleClick}>{icon}</span>
         {props.phonetic.text}
       </div>
     );
