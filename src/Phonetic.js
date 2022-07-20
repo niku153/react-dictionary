@@ -14,8 +14,8 @@ export default function Phonetic(props) {
       <div className="Phonetic">
         <span onClick={handleClick} className="icon">
           {icon}
-        </span>
-        {props.phonetic.text}
+        </span>{" "}
+        <span className="text">{props.phonetic.text}</span>
       </div>
     );
   } else {

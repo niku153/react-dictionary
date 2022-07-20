@@ -6,10 +6,13 @@
 .Dictionary section {
   background: #f3e4e0;
   border-radius: 8px;
+  padding: 30px;
+  margin-bottom: 20px;
 }
 
 .Dictionary input {
   border-radius: 8px;
   font-size: 14px;
   background-color: #fef9f8;
+  margin-top: 10px;
 }

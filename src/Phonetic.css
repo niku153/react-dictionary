@@ -14,3 +14,11 @@
   background: #ef9173;
   border: 1px solid #fef9f8;
 }
+
+.Phonetic .text {
+  color: #808080;
+}
+
+.Phonetic {
+  margin-top: 20px;
+}

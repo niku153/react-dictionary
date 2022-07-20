@@ -1,6 +1,7 @@
 import "./App.css";
 import logo from "./logo.png";
 import Dictionary from "./Dictionary";
+import Footer from "./Footer";
 
 function App() {
   return (
@@ -13,7 +14,7 @@ function App() {
         <main>
           <Dictionary />
         </main>
-        <footer className="App-footer">Coded by Nirali Parikh </footer>
+        <Footer />
       </div>
     </div>
   );

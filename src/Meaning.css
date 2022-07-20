@@ -1,0 +1,17 @@
+.Meaning .definition {
+  margin-bottom: 3px;
+  font-size: 15px;
+}
+
+.Meaning .example {
+  margin-bottom: 20px;
+  font-style: italic;
+  font-size: 14px;
+  color: grey;
+  font-weight: 200;
+}
+
+.Meaning h3 {
+  font-size: 25px;
+  font-weight: normal;
+}

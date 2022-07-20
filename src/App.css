@@ -30,12 +30,6 @@ body {
   display: inline;
 }
 
-.App-footer {
-  margin-top: 10px;
-  text-align: center;
-  font-size: 13px;
-}
-
 @media (max-width: 576px) {
   .App .logo {
     max-width: 50px;
